@@ -1,0 +1,11 @@
+* {
+    margin: unset;
+    padding: unset;
+  }
+  
+  /* . はじまりはhtmlでclass="header"を指定 */
+  .header {
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+  }
