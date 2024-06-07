@@ -7,7 +7,7 @@
 .header {
   background-color: #000;
   color: #fff;
-  padding: 16px;
+  padding: 16px;dsdawh
 }
 
 .main-title {
@@ -49,4 +49,106 @@
 
 .content-child-item-title {
   font-size: 16px;
+}
+
+.menu {
+  margin: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+.menu-list a {
+  padding: 16px;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  min-width: 160px;
+  text-align: center;
+}
+
+.menu-list a:hover {
+  background-color: #666;
+}
+
+.box1 {
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 20px solid yellow;
+}
+
+.box2 {
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 20px solid yellow;
+
+  box-sizing: border-box;
+}
+
+.entry {
+  border: 3px solid #333;
+  max-width: 240px;
+}
+
+.entry-title {
+  margin: 8px;
+}
+
+.entry-img {
+  margin: 0 8px;
+}
+
+.entry-img img {
+  width: 100%;
+}
+
+.entry-category-item {
+  margin: 8px;
+  padding: 8px;
+  list-style-type: none;
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+}
+
+.entry-text {
+  margin: 8px;
+}
+
+.entry-container {
+  padding: 16px 0;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+
+.flex-container {
+  margin: 18px;
+  height: 500px;
+  display: flex;
+  gap: 18px;
+  background-color: black;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px; 
+  background-color: red;
 }

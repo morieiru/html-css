@@ -97,6 +97,90 @@
           <a href="https://google.com/">Google</a>
         </article>
       </article>
+
+      <article>
+        <h2 class="main-title">CSSについて</h2>
+        <p class="main-text">Cascading Style Sheets</p>
+        
+        <section class="content-item">
+          <h3 class="content-item-title">メニュー</h3>
+
+          <p class="content-item-text"><a href="https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet">Flexbox チートシート</a></p>
+
+          <ul class="menu">
+            <li class="menu-list"><a href="">X</a></li>
+            <li class="menu-list"><a href="">Instagram</a></li>
+            <li class="menu-list"><a href="">Facebook</a></li>
+          </ul>
+        </section>
+
+        <section class="content-item">
+          <h3 class="content-item-title">marginとpaddingとborderと幅について</h3>
+          <p class="content-item-text">基本的にはwidth + padding + borderの大きさになる</p>
+          <p class="content-item-text">ただしborder-sizing: border-box;が指定されてる場合はwidthの幅になる。（widthの内側にborderとpaddingが入る）</p>
+          <img src="./img/padding-border.png" alt="paddingとborderの関係">
+          
+          <p class="content-item-text">下記のように全てのタグに対して当てちゃっても良い。</p>
+          <pre>
+* {
+  box-sizing: border-box;
+}
+          </pre>
+          <p class="box1">テキスト</p>
+          <p class="box2">テキスト</p>
+        </section>
+
+        <section class="content-item">
+          <h3 class="content-item-title">記事</h3>
+
+          <div class="entry-container">
+            <section class="entry">
+              <h4 class="entry-title"><a href="">タイトル</a></h4>
+              <p class="entry-img">
+                <img src="https://aipict.com/wp-content/uploads/2022/09/sky02.png" alt="">
+              </p>
+              <ul class="entry-category">
+                <li class="entry-category-item">カテゴリー</li>
+              </ul>
+              <p class="entry-text">記事の説明</p>
+            </section>            <section class="entry">
+              <h4 class="entry-title"><a href="">タイトル</a></h4>
+              <p class="entry-img">
+                <img src="https://aipict.com/wp-content/uploads/2022/09/sky02.png" alt="">
+              </p>
+              <ul class="entry-category">
+                <li class="entry-category-item">カテゴリー</li>
+              </ul>
+              <p class="entry-text">記事の説明</p>
+            </section>            <section class="entry">
+              <h4 class="entry-title"><a href="">タイトル</a></h4>
+              <p class="entry-img">
+                <img src="https://aipict.com/wp-content/uploads/2022/09/sky02.png" alt="">
+              </p>
+              <ul class="entry-category">
+                <li class="entry-category-item">カテゴリー</li>
+              </ul>
+              <p class="entry-text">記事の説明</p>
+            </section>
+          </div>
+        </section>
+
+        <section class="content-item">
+          <h3 class="content-item-title">flexでの真ん中よせ</h3>
+          <p class="entry-text">justify-content: center;かalign-items: center;を使う</p>
+          <p class="entry-text">ただし注意が必要で、flex-directionの方向によって、方向変わる</p>
+          <div class="flex-container column"><!-- class複数 半角スペースで-->
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+          </div>
+          <div class="flex-container">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+          </div>
+        </section>
+      </article>
     </main>
 
     <footer>
